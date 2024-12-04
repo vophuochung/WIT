@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask App</title>
+    <title>Student Registration</title>
 </head>
 <body>
-    <h1>Welcome to my Python Flask app on Azure!</h1>
+    <h1>Welcome to the Student Registration Portal</h1>
+    <a href="{{ url_for('register') }}">Register Now</a> | <a href="{{ url_for('students') }}">View Registered Students</a>
 </body>
 </html>
